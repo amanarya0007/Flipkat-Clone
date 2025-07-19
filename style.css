@@ -76,8 +76,6 @@
     }
 
     .ma .mainbox .cbox .cp {
-        /* display: flex !important; */
-        /* flex-direction: row; */
         grid-template-columns: 1fr 1fr 1fr 1fr !important;
         grid-template-rows: none !important;
     }
@@ -112,10 +110,7 @@
     .colmain .col2 .mobiles .types .type {
         display: flex;
         flex-direction: row;
-        /* background-color: #eaeaea;
-        border: 3px solid grey; */
         margin-left: 0px;
-        /* padding-left: 0px; */
         padding: 20px 10px 20px 10px;
 
 
@@ -133,8 +128,6 @@
         font-size: 14px !important;
         padding-left: 30px;
         margin-top: 5px !important;
-        /* text-align: left !important; */
-        /* flex-direction: row !important; */
     }
 
     .colmain .col2 .mobiles .types .type .mname .brand,
@@ -155,8 +148,6 @@
     }
 
     .ma .mainbox .cbox .cp {
-        /* display: flex !important; */
-        /* flex-direction: row; */
         grid-template-columns: 1fr 1fr !important;
         grid-template-rows: 1fr 1fr !important;
     }
@@ -191,33 +182,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    /* justify-content: center; */
     margin: auto;
 }
 
-/* @media screen and (max-width: 900px) {
-   nav .header {
-       flex-direction: column;
-       align-items: flex-start;
-   }
-
-   nav .header .h1, nav .header .h2 {
-       width: 100%;
-   }
-
-   nav .header .h2 .menu ul {
-       justify-content: space-around;
-       width: 100%;
-   }
-
-   nav .header .h2 .menu ul li .n {
-       display: none;
-   }
-
-   nav .header .h1 .searchbar {
-       margin-top: 10px;
-   }
-} */
 
 body {
     background-color: #eaeaea;
@@ -239,11 +206,9 @@ nav .header .h1 {
     display: flex;
     justify-content: space-around;
     width: 65vw;
-    /* flex: 1; */
 }
 
 nav .header .h1 .searchbar {
-    /* width: 100%; */
     flex: 1;
 }
 
@@ -263,12 +228,10 @@ nav .header .h2 .menu ul {
     width: 100%;
     gap: 20px;
     align-items: center;
-    /* padding: 0px 20px 0px 0px; */
 
 }
 
 nav .header .h2 {
-    /* width: 35vw; */
     flex-shrink: 0;
 }
 
@@ -281,8 +244,6 @@ nav .header .h2 .menu ul li {
     padding: 0;
     gap: 5px;
     cursor: pointer;
-    /* justify-content: space-around; */
-    /* padding: 0px 20px 0px 0px; */
 }
 
 nav .header .h2 .menu ul li:hover {
@@ -290,20 +251,6 @@ nav .header .h2 .menu ul li:hover {
     animation: hoveranim 0.4s ease 0s forwards;
 }
 
-/* hide the checkbox */
-/* #menu-toggle {
-  display: none;
-}
-
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  user-select: none;
-  padding: 5px 10px;
-} */
-
-/* desktop menu */
 nav .header .h2 .menu ul {
     display: flex;
     list-style: none;
@@ -338,7 +285,6 @@ nav .header .h2 .menu ul li {
 .categorybox .boxes .box {
     display: flex;
     flex-direction: column;
-    /* min-width: 90px; */
     cursor: pointer;
 }
 
@@ -383,7 +329,6 @@ footer {
     max-width: 1800px;
     width: 98vw;
     box-sizing: border-box;
-    /* height: 51vh; */
 }
 
 .colmain .col2 {
@@ -394,8 +339,6 @@ footer {
 
 .colmain .col2 .mobiles {
     background-color: white;
-    /* width: 82vw; */
-    /* margin: 9px; */
     overflow: scroll;
     ;
 }
@@ -412,7 +355,6 @@ footer {
 .colmain .col2 .mobiles .types {
     display: flex;
     justify-content: space-around;
-    /* width: 100%; */
     width: 1150px;
     margin: 60px 0px 70px 40px;
     gap: 30px;
@@ -428,7 +370,6 @@ footer {
 }
 
 .colmain .col2 .mobiles .types .type .mpic img {
-    /* width: 65%; */
     width: 150px;
     display: flex;
     align-items: center;
@@ -476,7 +417,6 @@ footer {
     gap: 90px;
 
     justify-content: space-around;
-    /* width: 100%; */
     width: 1150px;
     margin: 40px 0px 30px 60px;
 
@@ -612,13 +552,6 @@ footer {
     cursor: pointer;
 }
 
-/* .img100 img{
-    width: 100%;
-} */
-/* .lbox{
-    max-width: 1800px;
-    width: 98vw;
- } */
 .lcont {
     margin: 17px;
     display: grid;
@@ -631,7 +564,6 @@ footer {
 
 .lc {
     width: 99%;
-    /* max-height: 35vh; */
 }
 
 .lc img {
@@ -668,7 +600,6 @@ footer {
     list-style: none;
     color: white;
     font-weight: 600;
-    /* padding: 10px; */
 }
 
 footer .lastcont .flist .listcontent ul li {
